@@ -1,0 +1,12 @@
+{
+  "SERVICE_NAME": "minha-central",
+  "NAMESPACE": "minha-central",
+  "IMAGE": "ghcr.io/oondemand/minha-central-backend",
+  "IMAGE_TAG": "latest",
+  "HOST": "minha-central.oondemand.com",
+  "CENTRAL_ATIVACAO_URL": "https://central-ativacao.example.com",
+  "APP_CODE": "minha-central",
+  "REPLICAS": "1",
+  "HPA_MIN": "1",
+  "HPA_MAX": "3"
+}
