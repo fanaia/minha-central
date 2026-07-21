@@ -15,5 +15,7 @@ defineModel({
     tipo: fields.enum(["pf", "pj"], { label: "Tipo", default: "pf" }),
     status: fields.enum(["ativo", "inativo"], { label: "Status", default: "ativo" }),
   },
-  crud: { enabled: true, roles: { write: ["admin"] } },
+  // O perfil criado/autorizado para desenvolvimento pela Central de Ativações
+  // é "desenvolvedor". O papel "admin" continua autorizado globalmente pelo Core.
+  crud: { enabled: true, roles: { write: ["desenvolvedor"] } },
 });
