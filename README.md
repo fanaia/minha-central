@@ -46,3 +46,5 @@ cd frontend && cp .env.example .env && npm install && npm run dev
 ## Validação de publicação
 
 Nova tentativa de publicação em Dev após a atualização das permissões do GitHub App do Control Plane.
+
+Nova tentativa após a correção do endpoint TLS e da retomada de ativações pendentes.
