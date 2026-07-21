@@ -42,3 +42,7 @@ cd frontend && cp .env.example .env && npm install && npm run dev
 2. Declare as telas em `frontend/central.ui.json` (coleções/esteiras/documentos).
 3. Use validations, triggers, hooks, mappings e integrations para regras e processos.
 4. O resto — grid, form, rotas, menu — é montado pelo Core automaticamente.
+
+## Validação de publicação
+
+Nova tentativa de publicação em Dev após a atualização das permissões do GitHub App do Control Plane.
