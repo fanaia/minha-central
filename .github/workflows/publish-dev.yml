@@ -9,4 +9,4 @@ jobs:
     permissions:
       contents: read
       id-token: write
-    uses: oondemand/oon-platform/.github/workflows/request-dev.yml@main
+    uses: oondemand/oon-publish/.github/workflows/request-dev.yml@main
